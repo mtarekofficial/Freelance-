@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/home.jpg">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbarUser navbar-expand-md fixed-top bg-black  text-white">
+        <div class="container justify-content-center">
+            <a class="navbar-brand w-50 me-0 fw-bolder text-white" href="#HomeFreelancer"><span class="text-danger">Free</span><span class="text-success">..</span><span class="text-info">Lance</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse m-auto" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link active me-3 text-white" aria-current="page" href="./freelancer.html">Home</a>
+                    <a class="nav-link me-3 text-white" href="#Your_Works">Your_Works</a>
+                    <a class="nav-link me-3 text-white" href="#Contact_Us">Contact_Us</a>
+                    <a class="nav-link me-3 text-white" href="./index.html">Log_Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--.................................................................Your_Profile.................................................................-->
+<section id="Your_Profile"  class="fw-bolder py-5 vh-100">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-4">
+                <div class="inner1 position-relative overflow-hidden">
+                    <div class="inner position-relative overflow-hidden rounded-circle">
+                        <img src="./img/male user.svg" alt="Male USer Icon" class=" rounded-circle w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 ms-5">
+                <p class="my-5">Name : <span class="ms-3" id="DispalyNameProfile"></span></p>
+                <p class="pt-5"><i class="fa-solid fa-envelope"></i> E-Mail : <span class="ms-3" id="DispalyEmailProfile"></span></p>
+                <p class=""><i class="fa-solid fa-phone"></i> Phone : <span class="ms-3" id="DispalyPhoneProfile"></span></p>
+                <p class=""><i class="fa-solid fa-lock"></i> password : <span class="ms-3" id="DispalyPasswordProfile"></span></p>
+                <button onclick="EditProfile()" class="rounded-5 btn btn-outline-danger px-5 mt-5 fw-semibold "><i class="fa-regular fa-keyboard "></i> Edit</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--.................................................................Your_Works.................................................................-->
+<section id="Your_Works" class="container mt-5">
+    <div class="row bg-secondary-subtle px-3 rounded-5 rounded-bottom-0 pt-5">
+        <div class="d-flex justify-content-center my-5">
+            <h2 class="fw-bolder text-danger bg-info rounded-5 px-5 py-1">Your_Works .</h2>
+        </div>
+        <div class="col-12 my-5 bg-white rounded-5 p-0" >
+            <div id="insertInfo">
+                <h2 class="my-5 text-danger fw-bolder"><span class="bg-info px-3 rounded-end-5">Client Name</span> <span id="displayClientName" class="text-black"></span></h2>
+                <p class="ms-5 text-danger fw-bolder">- Project Type  <span class="text-info"> : </span><span id="displayProjectType" class="text-black fw-normal"></span></p>
+                <p class="ms-5 text-danger fw-bolder">- Project Note  <span class="text-info"> : </span><span id="displayProjectNote" class="text-black fw-normal"></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--.................................................................Contact_Us.................................................................-->
+<footer class="bg-dark w-100 py-4" id="Contact_Us">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mb-5">
+
+                    <a href="https://www.facebook.com/profile.php?id=100027779514301&mibextid=eHce3h" class="text-decoration-none">
+                        <p class="text-success fw-bolder"><i class="fa-brands fa-facebook me-3 text-success fw-bolder"></i><span class="text-danger">Face</span>-<span class="text-info">Book</span> <span class="text-black ms-3 fw-light">@Mohamed Tarek</span></p>
+                    </a>
+
+                    <a href="https://youtube.com/@mtarek_official?si=X0dk8ZkEv14cmPqa" class="text-decoration-none">
+                        <p class="text-success fw-bolder"><i class="fa-brands fa-youtube me-3 text-success fw-bolder"></i><span class="text-danger">You</span>-<span class="text-info">Tube</span> <span class="text-black ms-3 fw-light">@MohamedTarek</span></p>
+                    </a>
+
+                    <a href="https://instagram.com/mtarek_official?igshid=OGQ5ZDc2ODk2ZA==" class="text-decoration-none">
+                        <p class="text-success fw-bolder"><i class="fa-brands fa-instagram me-3 text-success fw-bolder"></i><span class="text-danger">Insta</span>-<span class="text-info">Gram</span> <span class="text-black ms-3 fw-light">@mtarek_official</span></p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mohamed-tarek-830922280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-decoration-none">
+                        <p class="text-success fw-bolder"><i class="fa-brands fa-linkedin me-3 text-success fw-bolder"></i><span class="text-danger">linked</span>-<span class="text-info">In</span> <span class="text-black ms-3 fw-light">@Mohamed Tarek</span></p>
+                    </a>
+
+                    <a href="https://wa.me/message/CWRAB6IYIAOUG1" class="text-decoration-none">
+                        <p class="text-success fw-bolder"><i class="fa-brands fa-whatsapp me-3 text-success fw-bolder"></i><span class="text-danger">Whats</span>-<span class="text-info">App</span> <span class="text-black ms-3 fw-light">@ 01011273460</span></p>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <p class="text-white-50">Copy Right 2024 © By Freelance All Rights Reserved</p>
+                    <p class="text-danger fw-bolder"> Web-Site Was Built By : <span class="text-bg-info rounded-5 px-2">Mohamed Tarek Hussein</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // Retrieve stored values from localStorage
+    var selectedArea = localStorage.getItem('selectedArea');
+    var projectNote = localStorage.getItem('projectNote');
+
+    // Display the values in the respective elements
+    document.getElementById("displayProjectType").innerText = selectedArea;
+    document.getElementById("displayProjectNote").innerText = projectNote;
+</script>
+<script>
+    // Retrieve stored client name from localStorage
+    var clientName = localStorage.getItem('loggedInUser') ? JSON.parse(localStorage.getItem('loggedInUser')).clientName : "";
+
+    // Display the client name in the respective element
+    document.getElementById("displayClientName").innerText = clientName;
+</script>
+
+
+
+<script src="./JS/bootstrap.bundle.min.js"></script>
+<script src="./JS/index.js"></script>
+</body>
+</html>

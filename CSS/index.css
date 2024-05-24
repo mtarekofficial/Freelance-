@@ -1,0 +1,253 @@
+/*.........................................................All.........................................................*/ */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.allUserHome{
+    background-color: rgba(211, 211, 211, 0.796);
+}
+
+header{
+    background-image: linear-gradient(#000a,#000a), url(../img/home.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: auto;
+}
+
+
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.icons i {
+    color: white;
+}
+
+.user {
+    background-color: rgba(0, 0, 112, 0.5);
+    transition: background-color 1s ease 0.3s; 
+}
+
+.user:hover {
+    background-color: rgba(151, 0, 0, 0.5);
+    transition: background-color 1s ease;
+}
+
+.freelancer {
+    background-color: rgba(151, 0, 0, 0.5);
+    transition: background-color 1s ease 0.3s;
+}
+
+.freelancer:hover {
+    background-color: rgba(0, 0, 112, 0.5);
+    transition: background-color 1s ease;
+}
+
+
+
+
+
+
+.registration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: -5px 2px 54px -9px rgb(255, 146, 146);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.textEdit{
+    color:rgba(151, 0, 0) ;
+}
+
+
+
+
+
+
+
+
+
+/*.........................................................User.........................................................*/ */
+
+
+/* .headerUser{
+    background-image: linear-gradient(#000a,#000a), url(../img/userhome.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: auto;
+} */
+
+.navbarUser{
+    background-color: rgba(0, 0, 0, 0.703);
+}
+
+.HomeUserBackground{
+    background-image: linear-gradient(#000a,#000a), url(../img/userhome.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+}
+
+
+
+
+
+.pic-team{
+    background-color: dimgray;
+}
+
+
+
+
+
+.inner img{
+    transition: 400ms;
+}
+
+.inner:hover .layar{
+    top: 0;
+}
+
+.inner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 400ms ;
+}
+
+.inner:hover::after{
+    opacity: 1;
+}
+
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Clients-style{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgb(236, 235, 235);
+}
+
+
+
+.org-img-Clients{
+    margin-bottom: 150px;
+}
+
+
+.clint-2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/*.........................................................Freelancer.........................................................*/
+.HomeFreelancerBackground{
+    background-image: linear-gradient(#000a,#000a), url(../img/FreelancerHome.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.........................................................Animation for User.........................................................*/
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.user {
+    animation: slideFromLeft 1.5s ease forwards;
+}
+
+/*.........................................................Animation for Freelancer.........................................................*/
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.freelancer {
+    animation: slideFromRight 1.5s ease forwards;
+}
+
+
+
+
+
+
+
+

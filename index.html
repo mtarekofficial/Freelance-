@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/home.jpg">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+<header id="Home" class="vh-100 d-grid d-flex">
+    <div class="registration container rounded-5">
+        <div class="row">
+            <div class="col-lg-12 py-3 mt-5 rounded-5">
+                <div class="login ">
+                    <div class="col-10 mb-1 text-center text-white">
+                        <h2 class="textEdit fw-bolder">Smart Login System...</h2>
+                    </div>
+                    <div class="col-10 my-2">
+                        <input type="text" placeholder="Enter your name" class="form-control w-100 px-3 py-2 rounded-5 border-0" required name="name" id="signupName">
+                    </div>
+                    <div class="col-10 my-2">
+                        <input type="email" placeholder="Enter your email" class="form-control w-100 px-3 py-2 rounded-5 border-0" required name="email" id="signupEmail">
+                    </div>
+                    <div class="col-10 my-2">
+                        <input type="number" placeholder="Enter your phone" class="form-control w-100 px-3 py-2 rounded-5 border-0" required name="number" id="signupPhone">
+                    </div>
+                    <div class="col-10 my-2">
+                        <input type="password" placeholder="Enter your password" class="form-control w-100 px-3 py-2 rounded-5 border-0" required name="password" id="signupPassword">
+                    </div>
+                    <div class="col-10 my-2">
+                        <input type="password" placeholder="Please re-password" class="form-control w-100 px-3 py-2 rounded-5 border-0" required name="password" id="PasswordCheck">
+                    </div>
+                    <div class="col-10 text-danger my-2 rounded-5 ps-3 fw-bolder" id="GendarId">
+                        <label class="me-lg-3">Gendar : </label>
+                        <input  id="a" type="radio" name="Gendar" value="male"/>
+                        <label for="a" class="me-1">Male</label>
+                        <input  id="b" type="radio" name="Gendar" value="female"/>
+                        <label for="b">Fe-Male</label>
+                    </div>
+                    <div class="col-10 my-2">
+                        <button onclick="signUp()" class="btn btn-outline-info w-100 px-3 py-2 my-3 rounded-5" id="signUpbt">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <a href="./llogin.html" class="text-decoration-none text-black ">
+                <p class="textEdit fw-bolder mt-3 text-center w-100">Have an account..? <span class="text-white ms-3">Sign In..</span></p>
+            </a>
+        </div>
+    </div>        
+</header>
+
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
